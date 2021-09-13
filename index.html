@@ -21,16 +21,21 @@
             width: 100vw;
             height: 100vh;
         }
+        
+        div#overlay {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            opacity: .3;
+        }
     </style>
 </head>
 
-<body>
-    fgdfgdfg
-    <video autoplay muted loop id="myVideo">
-  <source src="thecoderspace.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
 
+<body>
+    <video autoplay muted loop id="myVideo">
+      <source src="thecoderspace.mp4" type="video/mp4">
+    </video>
 
     <script>
         var video = document.getElementById("myVideo");
